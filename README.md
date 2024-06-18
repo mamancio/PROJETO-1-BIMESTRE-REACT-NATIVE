@@ -1,79 +1,38 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+## PROJETOREACT-NATIVE-4DSM - 1º BIMESTRE - Rick and Morty Apk
 
-# Getting Started
+DEFINIÇÃO     DE     REQUISITOS     /     ESPECIFICAÇÕES     /     CONSIDERAÇÕES     / RECOMENDAÇÔES:ESTRUTURA: 
+Construa uma aplicação em React-Nativecom uma tela de “LOGIN”, 
+uma tela de  “CADASTRAR  USUÁRIO”, 
+uma  tela  para  adicionar  “CARDS”  de  uma  API  que  será passada  nas  instruções  abaixo  
+e  uma  tela  de “MAIS DETALHESDOS  CARDS” que  irá mostrar mais detalhes quando eu clicar em um botão para ver mais detalhes do “CARD” inserido.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Os dados terão que ser salvos pelo “BANCO DE DADOS DO CELULAR; conforme aprendemos em aula.
 
-## Step 1: Start the Metro Server
+O projeto que fizemos em sala de aula e aprendemos todo o conteúdo que será aplicado neste novo projeto se encontra no meu github: 
+https://github.com/XandyGomes/primeiroProjeto4DSM 
+Na tela de “LOGIN”:teremos 2 campos, um para usuário e um para a senha comum botão “ENTRAR” e um botão “CADASTRAR USUÁRIO”. 
+O botão “ENTRAR” irá  apontar  para  a tela de adicionar “CARDS” e o botão “CADASTRAR USUÁRIO” irá para a tela onde terá os seguintes campos:
+Nome, Telefone, CPF, E-mail e Curso, onde terá um botão “SALVAR” mas   que   não  salvará   em   nenhum   lugar, 
+será   apenas   para   fins  educacionais(pois estudaremos esse armazenamento de dados de cadastro no próximo projeto do 2º bimestre),
+mas esse botão “SALVAR” irá apontar para a tela de “LOGIN” novamente e assim poderemos entrar na aplicação simplesmente pelo botão “ENTRAR”
+(favor deixar a autenticação da função login e senha com os campos vazios), através do botão “ENTRAR”
+ele irá acessara tela de adicionaros“CARDS”.Na  tela  de“CARDS”:
+buscar na API gratuita https://rickandmortyapi.com, através  de  um botão  “ADD”  e  um “FORMULÁRIO  INPUT”para  passarmos  o
+campo  necessário  para adicionarmosos  cardsda série de animação “The  Rick  and  Morty” passando os mesmos atributos do modelo abaixo:
+<br>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+# Rick and Morty
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Projeto rápido feito para consumo de API para estudo e treinamento.
 
-```bash
-# using npm
-npm start
+<p align="center">
+  <img src="img/giphy.gif" width="75%" />
+</p>
 
-# OR using Yarn
-yarn start
-```
+## TECNOLOGIAS
+<br>
+Tecnologias, ferramentas e API utilizadas no desenvolvimento do projeto:
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+- [VS Code](https://code.visualstudio.com/) com [React](https://pt-br.legacy.reactjs.org/)
+- [API](https://rickandmortyapi.com)
+- [React Native](https://reactnative.dev/docs/environment-setup)
